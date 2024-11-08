@@ -1,0 +1,167 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 1rem;
+    text-align: justify;
+    margin-left: 13px;
+}
+
+.form-group{
+    margin-top: 1rem;
+    border: 1px solid;
+width: 22%;
+margin-left: 40%;
+border-radius: 5px;
+background-color: #fbfbfc;
+border-color: rgb(210, 231, 230);
+}
+
+img{
+    width: 70px;
+    margin-top: 1rem;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 200;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#forgot{
+    margin-left: 5rem;
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: blue;
+}
+
+#forgot:hover{
+    text-decoration: underline;
+    
+}
+
+
+#username{
+    margin-top: 8px;
+
+}
+
+input{
+    width: 87%;
+    padding: 6px;
+    border: 0.8px solid;
+    border-radius: 8px;
+    border-color:rgb(210, 231, 230);
+    transition: border-color 0.3s;
+}
+
+input:focus{
+    border-color: blue;
+    outline:blue;
+}
+
+#password{
+    margin-top: 15px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+
+
+#login{
+    width: 90%;
+    padding: 6px;
+    color: white;
+    background-color: green;
+    margin-bottom: 1.5rem;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#login:hover{
+    opacity: 0.9;
+    transition: 0.3s ease-in-out;
+}
+
+.sign{
+     margin-top: 1rem;
+    border: 1px solid;
+width: 22%;
+margin-left: 40%;
+border-radius: 5px;
+background-color: #fbfbfc;
+border-color: rgb(210, 231, 230);
+align-items: center;
+
+}
+
+#passkey{
+      text-decoration: none;
+      display:inline-block;
+      margin-top: 1.2rem;
+      font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      color: blue;
+}
+
+#passkey:hover{
+    text-decoration: underline;
+}
+
+#create{
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color: blue;
+}
+
+#create:hover{
+    text-decoration: underline;
+}
+
+h4{
+    margin-top: 15px;
+    font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+ #ft{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 2rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+#ft:hover{
+    text-decoration: underline;
+    color: blue;
+}
